@@ -1,0 +1,81 @@
+status file for recon-all
+Fri Aug 28 18:31:03 CST 2020
+#@# MotionCor Fri Aug 28 18:31:06 CST 2020
+#@# Talairach Fri Aug 28 18:31:14 CST 2020
+#@# Talairach Failure Detection Fri Aug 28 18:34:52 CST 2020
+#@# Nu Intensity Correction Fri Aug 28 18:34:52 CST 2020
+#@# Intensity Normalization Fri Aug 28 18:38:28 CST 2020
+#@# Skull Stripping Fri Aug 28 18:40:01 CST 2020
+#@# EM Registration Fri Aug 28 18:43:27 CST 2020
+#@# CA Normalize Fri Aug 28 18:46:41 CST 2020
+#@# CA Reg Fri Aug 28 18:47:58 CST 2020
+#@# SubCort Seg Fri Aug 28 19:49:55 CST 2020
+#@# CC Seg Fri Aug 28 20:27:45 CST 2020
+#@# Merge ASeg Fri Aug 28 20:28:39 CST 2020
+#@# Intensity Normalization2 Fri Aug 28 20:28:39 CST 2020
+#@# Mask BFS Fri Aug 28 20:31:14 CST 2020
+#@# WM Segmentation Fri Aug 28 20:31:15 CST 2020
+#@# Fill Fri Aug 28 20:33:44 CST 2020
+#@# Tessellate lh Fri Aug 28 20:35:00 CST 2020
+#@# Tessellate rh Fri Aug 28 20:35:03 CST 2020
+#@# Smooth1 lh Fri Aug 28 20:35:07 CST 2020
+#@# Smooth1 rh Fri Aug 28 20:35:07 CST 2020
+#@# Inflation1 lh Fri Aug 28 20:35:10 CST 2020
+#@# Inflation1 rh Fri Aug 28 20:35:10 CST 2020
+#@# QSphere lh Fri Aug 28 20:35:21 CST 2020
+#@# QSphere rh Fri Aug 28 20:35:21 CST 2020
+#@# Fix Topology lh Fri Aug 28 20:36:28 CST 2020
+#@# Fix Topology rh Fri Aug 28 20:36:28 CST 2020
+#@# Smooth2 lh Fri Aug 28 20:48:20 CST 2020
+#@# Smooth2 rh Fri Aug 28 20:48:20 CST 2020
+#@# Inflation2 lh Fri Aug 28 20:48:23 CST 2020
+#@# Inflation2 rh Fri Aug 28 20:48:23 CST 2020
+#@# Curv .H and .K lh Fri Aug 28 20:48:35 CST 2020
+#@# Curv .H and .K rh Fri Aug 28 20:48:35 CST 2020
+#@# Sphere lh Fri Aug 28 20:49:21 CST 2020
+#@# Sphere rh Fri Aug 28 20:49:21 CST 2020
+#@# Surf Reg lh Fri Aug 28 20:53:31 CST 2020
+#@# Surf Reg rh Fri Aug 28 20:53:31 CST 2020
+#@# Jacobian white lh Fri Aug 28 20:57:01 CST 2020
+#@# Jacobian white rh Fri Aug 28 20:57:01 CST 2020
+#@# AvgCurv lh Fri Aug 28 20:57:02 CST 2020
+#@# AvgCurv rh Fri Aug 28 20:57:02 CST 2020
+#@# Cortical Parc lh Fri Aug 28 20:57:03 CST 2020
+#@# Cortical Parc rh Fri Aug 28 20:57:03 CST 2020
+#@# white curv lh Fri Aug 28 21:08:04 CST 2020
+#@# white area lh Fri Aug 28 21:08:05 CST 2020
+#@# pial curv lh Fri Aug 28 21:08:06 CST 2020
+#@# pial area lh Fri Aug 28 21:08:07 CST 2020
+#@# thickness lh Fri Aug 28 21:08:08 CST 2020
+#@# area and vertex vol lh Fri Aug 28 21:08:34 CST 2020
+#@# white curv rh Fri Aug 28 21:08:36 CST 2020
+#@# white area rh Fri Aug 28 21:08:37 CST 2020
+#@# pial curv rh Fri Aug 28 21:08:38 CST 2020
+#@# pial area rh Fri Aug 28 21:08:40 CST 2020
+#@# thickness rh Fri Aug 28 21:08:40 CST 2020
+#@# area and vertex vol rh Fri Aug 28 21:09:07 CST 2020
+#@# Curvature Stats lh Fri Aug 28 21:09:09 CST 2020
+#@# Curvature Stats rh Fri Aug 28 21:09:11 CST 2020
+#@# Cortical ribbon mask Fri Aug 28 21:09:13 CST 2020
+#@# Cortical Parc 2 lh Fri Aug 28 21:11:49 CST 2020
+#@# Cortical Parc 2 rh Fri Aug 28 21:11:49 CST 2020
+#@# Cortical Parc 3 lh Fri Aug 28 21:12:04 CST 2020
+#@# Cortical Parc 3 rh Fri Aug 28 21:12:04 CST 2020
+#@# WM/GM Contrast lh Fri Aug 28 21:12:16 CST 2020
+#@# WM/GM Contrast rh Fri Aug 28 21:12:16 CST 2020
+#@# Relabel Hypointensities Fri Aug 28 21:12:19 CST 2020
+#@# APas-to-ASeg Fri Aug 28 21:12:35 CST 2020
+#@# AParc-to-ASeg aparc Fri Aug 28 21:12:45 CST 2020
+#@# AParc-to-ASeg aparc.a2009s Fri Aug 28 21:13:46 CST 2020
+#@# AParc-to-ASeg aparc.DKTatlas Fri Aug 28 21:14:48 CST 2020
+#@# WMParc Fri Aug 28 21:15:49 CST 2020
+#@# Parcellation Stats lh Fri Aug 28 21:18:55 CST 2020
+#@# Parcellation Stats rh Fri Aug 28 21:18:55 CST 2020
+#@# Parcellation Stats 2 lh Fri Aug 28 21:19:05 CST 2020
+#@# Parcellation Stats 2 rh Fri Aug 28 21:19:05 CST 2020
+#@# Parcellation Stats 3 lh Fri Aug 28 21:19:16 CST 2020
+#@# Parcellation Stats 3 rh Fri Aug 28 21:19:16 CST 2020
+#@# ASeg Stats Fri Aug 28 21:19:27 CST 2020
+#@# BA_exvivo Labels lh Fri Aug 28 21:19:57 CST 2020
+#@# BA_exvivo Labels rh Fri Aug 28 21:20:46 CST 2020
+recon-all -s jiangxichen finished without error at Fri Aug 28 21:21:34 CST 2020

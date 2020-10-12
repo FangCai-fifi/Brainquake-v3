@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BrainQuake_v3</class>
+ <widget class="QWidget" name="BrainQuake_v3">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>797</width>
+    <height>534</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>GUIfortest</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>100</y>
+     <width>90</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Upload</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>60</y>
+     <width>80</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>创建新项目：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>160</y>
+     <width>80</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>进度查询：</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>200</y>
+     <width>90</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Check</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_2">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>160</y>
+     <width>200</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>&lt;name&gt;</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_3">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>200</y>
+     <width>200</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>&lt;number&gt;</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_4">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>240</y>
+     <width>200</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Yuquan</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QProgressBar" name="progressBar">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>100</y>
+     <width>160</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="value">
+    <number>24</number>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>60</y>
+     <width>400</width>
+     <height>32</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser_2">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>291</y>
+     <width>255</width>
+     <height>160</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>60</y>
+     <width>90</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Browse</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="graphicsView">
+   <property name="geometry">
+    <rect>
+     <x>435</x>
+     <y>290</y>
+     <width>255</width>
+     <height>160</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>240</y>
+     <width>90</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Preview</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser_2">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>100</y>
+     <width>200</width>
+     <height>32</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>BrainQuake_v3</receiver>
+   <slot>Browse()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>495</x>
+     <y>71</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>330</x>
+     <y>65</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>BrainQuake_v3</receiver>
+   <slot>Upload()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>585</x>
+     <y>73</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>570</x>
+     <y>69</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>progressBar</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>BrainQuake_v3</receiver>
+   <slot>Progress()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>351</x>
+     <y>111</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>354</x>
+     <y>120</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>comboBox_2</sender>
+   <signal>editTextChanged(QString)</signal>
+   <receiver>BrainQuake_v3</receiver>
+   <slot>Name()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>399</x>
+     <y>175</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>493</x>
+     <y>198</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>comboBox_3</sender>
+   <signal>editTextChanged(QString)</signal>
+   <receiver>BrainQuake_v3</receiver>
+   <slot>Id()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>399</x>
+     <y>218</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>487</x>
+     <y>238</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>comboBox_4</sender>
+   <signal>editTextChanged(QString)</signal>
+   <receiver>BrainQuake_v3</receiver>
+   <slot>Hos()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>399</x>
+     <y>256</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>478</x>
+     <y>270</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>BrainQuake_v3</receiver>
+   <slot>Check()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>491</x>
+     <y>253</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>586</x>
+     <y>193</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>BrainQuake_v3</receiver>
+   <slot>PreView()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>597</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>688</x>
+     <y>275</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>Browse()</slot>
+  <slot>slot2()</slot>
+  <slot>Upload()</slot>
+  <slot>slot3()</slot>
+  <slot>Progress()</slot>
+  <slot>slot4()</slot>
+  <slot>TextN()</slot>
+  <slot>slot5()</slot>
+  <slot>Name()</slot>
+  <slot>slot6()</slot>
+  <slot>Id()</slot>
+  <slot>slot7()</slot>
+  <slot>Hos()</slot>
+  <slot>slot8()</slot>
+  <slot>RevMes()</slot>
+  <slot>slot9()</slot>
+  <slot>Check()</slot>
+  <slot>slot10()</slot>
+  <slot>PreView()</slot>
+  <slot>slot11()</slot>
+ </slots>
+</ui>
