@@ -6,12 +6,12 @@ import time
 import multiprocessing
 import utils as utils
 
-CHECKTIME = 5
-Filepath = '../data/task_done.txt'
+CHECKTIME = 60
+Filepath = './data/recv/task_done.txt'
 
 while True: ## poll and recon
     # wait for a poll
-    time.sleep(CHECKTIME)
+    time.sleep(10)
 
     # check for the last finished task
     f = open(Filepath)
@@ -27,11 +27,11 @@ while True: ## poll and recon
 
     # start a recon task or wait for the next poll
     if new_flag:
-        cmd, num, name, hospital, state, info = utils.divide_a_log(log)
-        p1 = multiprocessing.Process(target=utils.run,args=(cmd,))
-        p2 = multiprocessing.Process(target=utils.estimate,args=(num,name,hospital,state,info,))
+        cmd, num, name, hospital, state, info = utils.write_a_freecmd(log)
+        p1 = multiprocessing.Process(target=utils.reconrun,args=(cmd,num,name,hospital,))
+        # p2 = multiprocessing.Process(target=utils.estimate,args=(num,name,hospital,state,info,))
         p1.start()
-        p2.start()
+        # p2.start()
 
     else:
         pass

@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EEP</class>
+ <widget class="QWidget" name="EEP">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>876</width>
+    <height>878</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>EEP</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CT</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>753</x>
+     <y>38</y>
+     <width>87</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Browse</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>110</y>
+     <width>41</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>MRI T1</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>110</y>
+     <width>87</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Browse</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>170</y>
+     <width>81</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Compute</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>280</y>
+     <width>24</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>MRI</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>280</y>
+     <width>87</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Browse</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>350</y>
+     <width>87</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Browse</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="graphicsView">
+   <property name="geometry">
+    <rect>
+     <x>67</x>
+     <y>414</y>
+     <width>451</width>
+     <height>421</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QSlider" name="horizontalSlider">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>420</y>
+     <width>141</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>420</y>
+     <width>61</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Threshold</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_6">
+   <property name="geometry">
+    <rect>
+     <x>753</x>
+     <y>536</y>
+     <width>81</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Label</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_7">
+   <property name="geometry">
+    <rect>
+     <x>753</x>
+     <y>570</y>
+     <width>81</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>View</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_8">
+   <property name="geometry">
+    <rect>
+     <x>753</x>
+     <y>604</y>
+     <width>81</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string> Combine</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_9">
+   <property name="geometry">
+    <rect>
+     <x>753</x>
+     <y>638</y>
+     <width>82</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Delete</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_10">
+   <property name="geometry">
+    <rect>
+     <x>753</x>
+     <y>672</y>
+     <width>81</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Divide</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>230</y>
+     <width>835</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>460</y>
+     <width>171</width>
+     <height>371</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>40</y>
+     <width>658</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser_2">
+   <property name="geometry">
+    <rect>
+     <x>87</x>
+     <y>107</y>
+     <width>658</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser_3">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>160</y>
+     <width>259</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser_4">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>280</y>
+     <width>658</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser_5">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>350</y>
+     <width>658</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser_6">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>160</y>
+     <width>256</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>350</y>
+     <width>65</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Electrodes</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_11">
+   <property name="geometry">
+    <rect>
+     <x>753</x>
+     <y>706</y>
+     <width>81</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Done</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>EEP</receiver>
+   <slot>choose_a_CTfile()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>594</x>
+     <y>35</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>659</x>
+     <y>21</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>EEP</receiver>
+   <slot>choose_a_T1file()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>586</x>
+     <y>69</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>661</x>
+     <y>62</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>EEP</receiver>
+   <slot>compute_EEP()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>595</x>
+     <y>107</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>659</x>
+     <y>103</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>EEP</receiver>
+   <slot>choose_a_brain()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>599</x>
+     <y>218</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>658</x>
+     <y>214</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_5</sender>
+   <signal>clicked()</signal>
+   <receiver>EEP</receiver>
+   <slot>choose_an_elecList()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>598</x>
+     <y>246</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>656</x>
+     <y>247</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>horizontalSlider</sender>
+   <signal>sliderMoved(int)</signal>
+   <receiver>EEP</receiver>
+   <slot>setThreshold()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>720</x>
+     <y>290</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>766</x>
+     <y>291</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>graphicsView</sender>
+   <signal>rubberBandChanged(QRect,QPointF,QPointF)</signal>
+   <receiver>EEP</receiver>
+   <slot>graph_0()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>75</x>
+     <y>299</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>28</x>
+     <y>301</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>listWidget</sender>
+   <signal>itemSelectionChanged()</signal>
+   <receiver>EEP</receiver>
+   <slot>choose_elecs()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>620</x>
+     <y>498</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>659</x>
+     <y>502</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_6</sender>
+   <signal>clicked()</signal>
+   <receiver>EEP</receiver>
+   <slot>assign_labels()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>746</x>
+     <y>338</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>781</x>
+     <y>333</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_7</sender>
+   <signal>clicked()</signal>
+   <receiver>EEP</receiver>
+   <slot>combine_labels()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>740</x>
+     <y>368</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>782</x>
+     <y>366</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_8</sender>
+   <signal>clicked()</signal>
+   <receiver>EEP</receiver>
+   <slot>delete_labels()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>742</x>
+     <y>396</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>781</x>
+     <y>396</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_9</sender>
+   <signal>clicked()</signal>
+   <receiver>EEP</receiver>
+   <slot>reassign_labels()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>744</x>
+     <y>425</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>781</x>
+     <y>426</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_10</sender>
+   <signal>clicked()</signal>
+   <receiver>EEP</receiver>
+   <slot>save_an_elecList()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>753</x>
+     <y>458</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>780</x>
+     <y>463</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>choose_a_CTfile()</slot>
+  <slot>choose_a_T1file()</slot>
+  <slot>compute_EEP()</slot>
+  <slot>choose_a_brain()</slot>
+  <slot>choose_an_elecList()</slot>
+  <slot>setThreshold()</slot>
+  <slot>graph_0()</slot>
+  <slot>graph_1()</slot>
+  <slot>graph_2()</slot>
+  <slot>graph_3()</slot>
+  <slot>choose_elecs()</slot>
+  <slot>assign_labels()</slot>
+  <slot>combine_labels()</slot>
+  <slot>delete_labels()</slot>
+  <slot>reassign_labels()</slot>
+  <slot>save_an_elecList()</slot>
+ </slots>
+</ui>

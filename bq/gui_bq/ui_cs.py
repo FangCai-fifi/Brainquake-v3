@@ -163,7 +163,14 @@ class MyPyQT_Form(QtWidgets.QWidget, Ui_BrainQuake_v3, Worker, Checker):
 
     def PreView(self):
         pass
-
+    
+    def closeEvent(self, event):
+        reply = QtWidgets.QMessageBox.question(self,'本程序',"Quit?",QtWidgets.QMessageBox.Yes | QtWidgets.QMessageBox.No,QtWidgets.QMessageBox.No)
+        if reply == QtWidgets.QMessageBox.Yes:
+            event.accept()
+            os._exit(0)
+        else:
+            event.ignore()
 
 if __name__ == '__main__':
 
